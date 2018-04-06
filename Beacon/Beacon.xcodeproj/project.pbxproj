@@ -17,6 +17,7 @@
 		E82361BB2077DFC20081E56B /* Promotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82361BA2077DFC20081E56B /* Promotion.swift */; };
 		E82361BC2077E0340081E56B /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = E82361AC2077DE540081E56B /* Assets.xcassets */; };
 		E82361BF2077E1500081E56B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82361BE2077E1500081E56B /* User.swift */; };
+		E82361C02077E17A0081E56B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E82361B12077DE540081E56B /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82361C02077E17A0081E56B /* Info.plist in Resources */,
 				E82361B02077DE540081E56B /* LaunchScreen.storyboard in Resources */,
 				E82361AD2077DE540081E56B /* Assets.xcassets in Resources */,
 				E82361A82077DE540081E56B /* Main.storyboard in Resources */,
