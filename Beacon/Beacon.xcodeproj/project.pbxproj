@@ -13,6 +13,10 @@
 		E82361AB2077DE540081E56B /* Beacon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E82361A92077DE540081E56B /* Beacon.xcdatamodeld */; };
 		E82361AD2077DE540081E56B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82361AC2077DE540081E56B /* Assets.xcassets */; };
 		E82361B02077DE540081E56B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82361AE2077DE540081E56B /* LaunchScreen.storyboard */; };
+		E82361B92077DEEA0081E56B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82361B82077DEEA0081E56B /* Store.swift */; };
+		E82361BB2077DFC20081E56B /* Promotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82361BA2077DFC20081E56B /* Promotion.swift */; };
+		E82361BC2077E0340081E56B /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = E82361AC2077DE540081E56B /* Assets.xcassets */; };
+		E82361BF2077E1500081E56B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82361BE2077E1500081E56B /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,9 @@
 		E82361AC2077DE540081E56B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E82361AF2077DE540081E56B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E82361B12077DE540081E56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82361B82077DEEA0081E56B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		E82361BA2077DFC20081E56B /* Promotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promotion.swift; sourceTree = "<group>"; };
+		E82361BE2077E1500081E56B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 		E82361A12077DE540081E56B /* Beacon */ = {
 			isa = PBXGroup;
 			children = (
+				E82361B72077DEC80081E56B /* Models */,
 				E82361A22077DE540081E56B /* AppDelegate.swift */,
 				E82361A42077DE540081E56B /* ViewController.swift */,
 				E82361A62077DE540081E56B /* Main.storyboard */,
@@ -65,6 +73,16 @@
 				E82361A92077DE540081E56B /* Beacon.xcdatamodeld */,
 			);
 			path = Beacon;
+			sourceTree = "<group>";
+		};
+		E82361B72077DEC80081E56B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E82361B82077DEEA0081E56B /* Store.swift */,
+				E82361BA2077DFC20081E56B /* Promotion.swift */,
+				E82361BE2077E1500081E56B /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82361BC2077E0340081E56B /* Assets.xcassets in Sources */,
 				E82361AB2077DE540081E56B /* Beacon.xcdatamodeld in Sources */,
 				E82361A52077DE540081E56B /* ViewController.swift in Sources */,
+				E82361BB2077DFC20081E56B /* Promotion.swift in Sources */,
 				E82361A32077DE540081E56B /* AppDelegate.swift in Sources */,
+				E82361B92077DEEA0081E56B /* Store.swift in Sources */,
+				E82361BF2077E1500081E56B /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
